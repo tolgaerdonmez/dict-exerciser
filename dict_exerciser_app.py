@@ -4,6 +4,7 @@ from PyQt5.QtWidgets import QWidget,QApplication,QPushButton,QLabel,QLineEdit,QH
 from PyQt5 import QtGui
 from PyQt5 import QtCore
 import sys, requests, sqlite3, os, json
+from hashlib import sha256
 
 locales = None
 # getting locales.json
@@ -101,7 +102,7 @@ class app_dict_login(QWidget):
 
     def sys_login(self):
         username = self.usernameInput.text()
-        password = self.passwordInput.text()
+        password = sha256(self.passwordInput.text().encode()).hexdigest()
         self.cursor.execute("SELECT * FROM userdata WHERE username = ? and password = ?",(username,password))
         user_data = self.cursor.fetchall()
         if len(user_data) == 0:
@@ -118,7 +119,7 @@ class app_dict_login(QWidget):
         self.cursor.execute('SELECT username FROM userdata')
         current_users = self.cursor.fetchall()
         new_username = self.usernameInput.text()
-        new_password = self.passwordInput.text()
+        new_password = sha256(self.passwordInput.text().encode()).hexdigest()
         #cheking if there is existing username as same as 'new_username'
         check_if_same = 'nope'
         for i in current_users:
