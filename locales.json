@@ -1,0 +1,104 @@
+{
+    "login_panel":[
+        {
+            "lang":"tr",
+            "username":"Kullanıcı Adı:",
+            "password":"Şifre:",
+            "login":"Giriş Yap",
+            "register":"Üye Ol",
+            "window_title":"Kelime Çalışması & Çeviri | Giriş Yap"
+        },
+        {
+            "lang":"en",
+            "username":"Username:",
+            "password":"Password:",
+            "login":"Login",
+            "register":"Resiger",
+            "window_title":"Word Exerciser & Translate | Log In"
+        },
+        {
+            "lang":"de",
+            "username":"Benutzername:",
+            "password":"Passwort:",
+            "login":"Anmelden",
+            "register":"Registrieren",
+            "window_title":"Wörter üben & Übersetzen | Anmelden"
+        }
+    ],
+    "main_panel":[
+        {
+            "lang":"tr",
+            "window-title":"Kelime Çalışması & Çeviri",
+            "logout":"Çıkış yap",
+            "user_label":"Merhaba! {}",
+            "go_practice":"Kelimelerini çalış !",
+            "show_practice_list":"Çalışma listeni gör !",
+            "translate_btn":"Çevir",
+            "add_word_to_list.text":"Ekle",
+            "add_word_to_list.tooltip":"Çalışma listene ekle !",
+            "from_label":"   Neyden",
+            "to_label":"Neye"
+        },
+        {
+            "lang":"en",
+            "window-title":"Word Practice & Translate",
+            "logout":"Log out",
+            "user_label":"Hi! {}",
+            "go_practice":"Practice Words !",
+            "show_practice_list":"See Your Practice List",
+            "translate_btn":"Translate",
+            "add_word_to_list.text":"Add",
+            "add_word_to_list.tooltip":"Add to your practice list !",
+            "from_label":"   From",
+            "to_label":"To"
+        },
+        {
+            "lang":"de",
+            "window-title":"Wort Üben & übersetzen",
+            "logout":"Abmelden",
+            "user_label":"Hallo! {}",
+            "go_practice":"Üb deine Wörter !",
+            "show_practice_list":"Sieh deine Liste !",
+            "translate_btn":"Übersetzt",
+            "add_word_to_list.text":"Hinzufügen",
+            "add_word_to_list.tooltip":"Füg deine Liste hinzu !",
+            "from_label":"   Von",
+            "to_label":"Zu"
+        }
+    ],
+    "practice_list_panel":[
+        {
+            "lang":"tr",
+            "window-title":"Listene Bak !",
+            "clear_list":"Listeyi temizle"
+        },
+        {
+            "lang":"en",
+            "window-title":"See your List !",
+            "clear_list":"Clear List"
+        },
+        {
+            "lang":"tr",
+            "window-title":"Zeig meine Liste !",
+            "clear_list":"Deine Liste löschen !"
+        }
+    ],
+    "practice_panel":[
+        {
+            "lang":"tr",
+            "window-title":"Çalış !",
+            "check_list":"Kontrol Et"
+        },
+        {
+            "lang":"en",
+            "window-title":"Practice !",
+            "check_list":"Check"
+        },
+        {
+            "lang":"tr",
+            "window-title":"Üben !",
+            "check_list":"Kontrollieren"
+        }
+    ]
+    
+}
